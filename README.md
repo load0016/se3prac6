@@ -1,6 +1,5 @@
-Test Plan: Scott Loader
-=======================
-Scott Loader | 2107197 | load0016
+Test Plan: Scott Loader - load0016
+==================================
 
 Baggage Handling System for a Major Airport: Denver Airport Baggage Handling System
 
