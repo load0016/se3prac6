@@ -43,3 +43,15 @@ Important Tests
 
  - Recovery Testing:
    - Mainly refers to the conveyor system. If the conveyor system were to have failures, this will have heavy impact and will cause massive delays for flights. Considering the main advantage of this airport handling system is its state-of-the-art baggage handling system, major testing will need to be undertaken on the conveyor system to ensure it runs correct with any scenario.
+
+Less Important Tests
+--------------------
+
+ - Black Box Testing:
+   - Considering there are 88 airport gates in 3 concourses and most likely a large amount of check-in areas. A black box test won’t be sufficient as baggage would be sent from any check-in gate to any of the 88 airport gates. This type of test wouldn’t work considering there to many situations to ensure a correct test.
+
+ - System Testing:
+   - A system test shouldn’t be needed considering unit testing will be done. Plus, considering the system is so large, there’s no guarantee that the whole system will be tested correctly, many scenarios will need to be tested which will defeat the purpose of the test.
+
+ - Comparison Testing:
+   - A comparison test wouldn’t work considering this is a state-of-the-art system which has never been done at this scale. Because of that, there wouldn’t be any system to compare it to as it’s the only one of its kind.
