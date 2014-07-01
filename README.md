@@ -10,6 +10,19 @@ Approaching the Design
 
 The baggage handling system for the Denver Airport will be the base of this test plan. The design of the baggage handling system is to automate the handling of baggage through the entire airport. From initial check-in/arrival, the baggage would be sent through the airport to the desired location will minimal human interaction which would minimalize flight delays and less waiting with baggage carousels.
 
+Decomposing the Problem
+-----------------------
+
+Components can be identified from the baggage handling system:
+
+ - Check-in
+   - Baggage weight is measured
+   - Baggage is labelled with destination and flight number
+ - Conveyor System
+   - Conveyor belt system to guide baggage to and from terminals
+ - System Software
+   - Database for storing baggage information
+
 Risks of this Design
 --------------------
 
