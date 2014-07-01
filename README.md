@@ -48,7 +48,7 @@ Less Important Tests
 --------------------
 
  - Black Box Testing:
-   - Considering there are 88 airport gates in 3 concourses and most likely a large amount of check-in areas. A black box test won’t be sufficient as baggage would be sent from any check-in gate to any of the 88 airport gates. This type of test wouldn’t work considering there to many situations to ensure a correct test.
+   - Considering there are 88 airport gates in 3 concourses and most likely a large amount of check-in areas. A black box test won’t be sufficient as baggage would be sent from any check-in area to any of the 88 airport gates. This type of test wouldn’t work considering there to many situations to ensure a correct test.
 
  - System Testing:
    - A system test shouldn’t be needed considering unit testing will be done. Plus, considering the system is so large, there’s no guarantee that the whole system will be tested correctly, many scenarios will need to be tested which will defeat the purpose of the test.
