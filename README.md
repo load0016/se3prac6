@@ -29,3 +29,17 @@ Risks of this Design
  - Identification of baggage: make it difficult to determine where the baggage goes when problems occur
  - Mechanical failure: can cause major delays if human baggage handlers aren’t on stand when problems occur
  - Misdirection of baggage: can occur when baggage isn’t labelled correctly from check-in
+
+The greatest risks lie at the check-in area. If the labelling of the baggage is incorrect, this could cause major problems with the final destination of the baggage. If the labelling is read incorrectly at check-in, what’s to say it won’t get read incorrectly again while on the conveyor system and cause massive delays with other flights? If the baggage is read incorrectly, the bag will be sent on a different flight causing lost baggage.
+
+Important Tests
+---------------
+
+ - Unit Testing:
+   - Considering the system is so large, testing of individual components will ensure the system is tested correctly. Unit testing can be done on all the necessary components to ensure they all work together correctly.
+
+ - Stress Testing:
+   - A stress test would check if the system can work under heavy loads of traffic, both in the conveyor system and system software. This will ensure the system is capable of running correctly in busy peak times when many flights are leaving and arriving at the same time.
+
+ - Recovery Testing:
+   - Mainly refers to the conveyor system. If the conveyor system were to have failures, this will have heavy impact and very well cause massive delays for flights. Considering the main advantage of this airport handling system is its state-of-the-art baggage handling, major testing will need to be undertaken on the conveyor system to ensure it runs correct with any scenario (slow or busy times).
